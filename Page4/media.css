@@ -1,0 +1,1237 @@
+@media (max-width:1110px) {
+
+    /* Works start*/
+    .works {
+        margin-top: 60px;
+        margin-bottom: 0px;
+        height: 700px;
+        /* background-color: aqua; */
+    }
+
+    .works .main {
+        width: 90%;
+        height: 100%;
+        padding: 10px 0px;
+        /* background-color: blueviolet; */
+    }
+
+    .works .text {
+        width: 33%;
+        height: 30%;
+        margin: 10px;
+        padding-top: 0px;
+        border-radius: 10px;
+        /* background-color: chartreuse; */
+    }
+
+    .works .text .box {
+        height: 100%;
+        /* background-color: #115eb5; */
+    }
+
+    .works .text .box h2 {
+        padding: 30px 0px 0px 0px;
+        margin: 0px;
+        font-size: 27px;
+    }
+
+    .works .text .box p {
+        padding: 0px 10px;
+        margin: 0px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .works .text .box .read {
+        padding: 0px 0px 30px 0px;
+        margin: 0px;
+    }
+
+    .works .text .box .read h3 {
+        margin: 0px;
+        font-size: 16px;
+    }
+
+    .works .text .box .read a img {
+        width: 95%;
+        padding: 0px 0px 3px 3px;
+    }
+
+    /* work end */
+}
+
+@media (max-width:1000px) {
+
+    /* Services START */
+    .services {
+        width: 100%;
+        height: 230px;
+    }
+
+    .services .main .center {
+        width: 45%;
+        height: 37%;
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    .services .main .center .text {
+        padding-top: 15px;
+    }
+
+    .services .main .center .text h2 {
+        margin: 0px;
+    }
+
+    .services .main .center .text .link a {
+        padding: 0px;
+    }
+
+    /* Services End */
+
+    /* how-work START */
+    .how-work {
+        width: 100%;
+        margin-top: 100px;
+        padding-top: 10px;
+        /* background-color: red; */
+    }
+
+    .how-work .boxs {
+        width: 90%;
+        padding: 30px 0px 90px 0px;
+        border-radius: 50px;
+    }
+
+    .how-work .boxs .boxx {
+        width: 80%;
+        padding: 10px 10px;
+        text-align: center;
+        /* background-color: rgb(88, 228, 88); */
+    }
+
+    .how-work .boxs .box {
+        display: flex;
+        align-items: start;
+        width: 80%;
+        height: 20%;
+        margin: 15px 0px;
+        /* background-color: rgb(228, 88, 186); */
+    }
+
+    .how-work .boxs .box .left {
+        width: 50%;
+        height: 100%;
+        /* background-color: rgb(95, 42, 165); */
+    }
+
+    .how-work .boxs .box .right {
+        width: 50%;
+        height: 100%;
+        /* background-color: rgb(42, 165, 153); */
+    }
+
+
+    .how-work .boxs .box .left .photo,
+    .right .photo {
+        margin: 0px 0px 0px 10px;
+        width: 90%;
+        height: 100%;
+        border-radius: 0px 100px 0px 290px;
+    }
+
+    .how-work .boxs .box .first,
+    .second,
+    .third,
+    .fourth {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+        margin: 0px 0px 0px 0px;
+        /* background-color: red; */
+    }
+
+    .how-work .boxs .box .first .top,
+    .second .top,
+    .third .top,
+    .fourth .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 30%;
+        padding: 1px 40px 0px 40px;
+        /* background-color: cyan; */
+    }
+
+    .icon1 {
+        text-align: center;
+        height: 70%;
+    }
+
+    .icon2 {
+        text-align: center;
+        width: 30px;
+        height: 65%;
+    }
+
+    .icon3 {
+        text-align: center;
+        height: 50px;
+    }
+
+    .icon4 {
+        text-align: center;
+        height: 50px;
+    }
+
+    .icon5 {
+        text-align: center;
+        height: 65%;
+    }
+
+    .icon6 {
+        text-align: center;
+        height: 65%;
+    }
+
+    .number {
+        text-align: center;
+        width: 40%;
+        height: 70%;
+    }
+
+    .how-work .boxs .box .first .bottom,
+    .second .bottom,
+    .third .bottom,
+    .fourth .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 35px 0px 0px 0px;
+        height: 70%;
+        /* background-color: #CDA274; */
+    }
+
+    .how-work .boxs .box .first .bottom h2,
+    .second .bottom h2,
+    .third .bottom h2,
+    .fourth .bottom h2 {
+        font-size: 22px;
+    }
+
+    .how-work .boxs .box .first .bottom p,
+    .second .bottom p,
+    .third .bottom p,
+    .fourth .bottom p {
+        padding: 15px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /* how-work END */
+}
+
+@media (max-width:800px) {
+
+    /* Navbar Start */
+    .navbar {
+        width: 100%;
+        padding: 0px;
+    }
+
+    header {
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+    .navbar .left {
+        width: 30%;
+        padding: 0px 0px 0px 15px;
+        /* background-color: rebeccapurple; */
+    }
+
+    .navbar .left img {
+        width: 24px;
+        height: 25px;
+        padding-bottom: 3px;
+    }
+
+    .navbar .left h3 {
+        font-weight: 600;
+        font-size: 26px;
+        padding: 8px 0px 0px 3px;
+    }
+
+    .navbar .right {
+        width: 70%;
+        padding: 0px 10px 0px 0px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        /* background-color: blue; */
+    }
+
+    .navbar .right a {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .navbar .right .icon {
+        width: 20px;
+        height: 20px;
+        padding: 0px 3px 29px 3px;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+
+    /* NAVBAR End */
+
+    /* Services START */
+    .services {
+        width: 100%;
+        height: 230px;
+    }
+
+    .services .main .center {
+        width: 45%;
+        height: 37%;
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    .services .main .center .text {
+        padding-top: 15px;
+    }
+
+    .services .main .center .text h2 {
+        margin: 0px;
+    }
+
+    .services .main .center .text .link a {
+        padding: 0px;
+    }
+
+    /* Services End */
+
+    /* Works start*/
+    .works {
+        margin-top: 60px;
+        height: 1100px;
+        /* background-color: aqua; */
+    }
+
+    .works .main {
+        width: 90%;
+        height: 100%;
+        padding: 10px 0px;
+        /* background-color: blueviolet; */
+    }
+
+    .works .text {
+        width: 40%;
+        height: 25%;
+        margin: 10px 10px;
+        padding-top: 0px;
+        border-radius: 10px;
+        /* background-color: chartreuse; */
+    }
+
+    .works .text .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        /* background-color: #115eb5; */
+    }
+
+    .works .text .box h2 {
+        padding: 20px 0px 0px 0px;
+        margin: 0px;
+        font-size: 22px;
+    }
+
+    .works .text .box p {
+        padding: 0px 3px;
+        margin: 0px;
+        font-size: 17px;
+    }
+
+    .works .text .box .read {
+        padding: 0px 0px 20px 0px;
+        margin: 0px;
+    }
+
+    .works .text .box .read h3 {
+        margin: 0px;
+        font-size: 16px;
+    }
+
+    .works .text .box .read a img {
+        padding: 0px 0px 2px 2px;
+    }
+
+    /* work end */
+
+
+    /* how-work START */
+    .how-work {
+        width: 100%;
+        margin-top: 100px;
+        padding-top: 10px;
+        /* background-color: red; */
+    }
+
+    .how-work .boxs {
+        width: 90%;
+        padding: 30px 0px 90px 0px;
+        border-radius: 50px;
+    }
+
+    .how-work .boxs .boxx {
+        width: 80%;
+        padding: 10px 10px;
+        text-align: center;
+        /* background-color: rgb(88, 228, 88); */
+    }
+
+
+    .how-work .boxs .boxx .box-1 h1 {
+        padding: 5px;
+        font-size: 30px;
+    }
+
+    .how-work .boxs .boxx .box-1 p {
+        font-size: 15px;
+    }
+
+    .how-work .boxs .box {
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+        width: 80%;
+        height: 20%;
+        margin: 15px 0px;
+        /* background-color: rgb(228, 88, 186); */
+    }
+
+    .how-work .boxs .box .left {
+        width: 50%;
+        height: 100%;
+        /* background-color: rgb(95, 42, 165); */
+    }
+
+    .how-work .boxs .box .right {
+        width: 50%;
+        height: 100%;
+        /* background-color: rgb(42, 165, 153); */
+    }
+
+    .how-work .boxs .box .left .photo,
+    .right .photo {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px 100px 0px 290px;
+    }
+
+    .how-work .boxs .box .first,
+    .second,
+    .third,
+    .fourth {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+        margin: 0px 0px 0px 10px;
+        /* background-color: red; */
+    }
+
+    .how-work .boxs .box .first .top,
+    .second .top,
+    .third .top,
+    .fourth .top {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 30%;
+        padding: 0px 10px 0px 10px;
+        /* background-color: cyan; */
+    }
+
+    .icon1 {
+        text-align: center;
+        height: 70%;
+    }
+
+    .icon2 {
+        text-align: center;
+        width: 30px;
+        height: 75%;
+    }
+
+    .icon3 {
+        text-align: center;
+        height: 51px;
+    }
+
+    .icon4 {
+        text-align: center;
+        height: 51px;
+    }
+
+    .icon5 {
+        text-align: center;
+        height: 70%;
+    }
+
+    .icon6 {
+        text-align: center;
+        height: 70%;
+    }
+
+    .number {
+        text-align: center;
+        width: 40%;
+        height: 55%;
+    }
+
+    .how-work .boxs .box .first .bottom,
+    .second .bottom,
+    .third .bottom,
+    .fourth .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0px 0px 0px;
+        height: 70%;
+        /* background-color: #CDA274; */
+    }
+
+    .how-work .boxs .box .first .bottom h2,
+    .second .bottom h2,
+    .third .bottom h2,
+    .fourth .bottom h2 {
+        font-size: 22px;
+    }
+
+    .how-work .boxs .box .first .bottom p,
+    .second .bottom p,
+    .third .bottom p,
+    .fourth .bottom p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /* how-work END */
+
+    /* Wanna STRAT */
+    .wanna {
+        margin: 100px 0px;
+        /* background-color: aqua; */
+    }
+
+    .join {
+        width: 90%;
+        height: 45vh;
+        border-radius: 40px;
+        background: #292F36;
+    }
+
+    .wanna .join h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .wanna .join p {
+        font-size: 14px;
+    }
+
+    .wanna .join .contact {
+        width: 160px;
+        height: 40px;
+        padding: 7px 5px 5px 9px;
+        border-radius: 13px;
+        box-shadow: 0px 10px 20px #1F2022;
+    }
+
+    .wanna .join .contact img {
+        width: 11%;
+        padding-bottom: 3px;
+    }
+
+    /* Wanna End */
+
+
+    /* Footer start */
+    .footer {
+        height: 60vh;
+        /* background-color: #CDA274; */
+        margin-bottom: 0px;
+    }
+
+    .footer .foot {
+        width: 90%;
+        /* background-color: #c539bc; */
+    }
+
+    .footer .foot .left {
+        padding-left: 20px;
+        width: 50%;
+        /* background-color: blueviolet; */
+    }
+
+    .footer .foot .left .loggo .logo img {
+        width: 24px;
+        height: 25px;
+        padding-bottom: 3px;
+    }
+
+    .footer .foot .left .loggo .logo h3 {
+        font-weight: 600;
+        font-size: 26px;
+        padding: 8px 0px 0px 3px;
+    }
+
+    .footer .foot .left p {
+        padding: 15px 10px 15px 0px;
+        text-align: start;
+        font-size: 14px;
+        /* color: #4D5053; */
+    }
+
+    .footer .foot .left .image img {
+        padding: 0px 15px 0px 0px;
+    }
+
+    .footer .foot .right {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding: 50px 0px 0px 0px;
+        width: 50%;
+        /* background-color: rgb(7, 213, 175); */
+    }
+
+    .footer .foot .right .pages {
+        padding: 3px 0x 3px 0px;
+        height: 10%;
+        margin: 5px;
+        /* background-color: brown; */
+    }
+
+    .footer .foot .right .services {
+        height: 10%;
+        margin: 5px;
+        padding: 3px 0x 3px 0px;
+        /* background-color: blue; */
+    }
+
+    .footer .foot .right .contact {
+        padding: 3px 0x 3px 0px;
+        height: 10%;
+        margin: 5px;
+        /* background-color: rgb(226, 43, 211); */
+    }
+
+    .footer .foot .right .pages h2,
+    .services h2,
+    .contact h2 {
+        font-size: 20px;
+    }
+
+    /* .footer .foot .right .pages a,
+    .services a,
+    .contact a {
+        font-size: 14px;
+        padding: 3px 0px 3px 0px;
+    } */
+    .footer .foot .right .links {
+        display: none;
+    }
+
+    /* Footer End */
+}
+
+@media(max-width:650px) {
+
+    /* Navbar Start */
+    .navbar .right .links {
+        display: none;
+    }
+
+    .navbar .right .icon {
+        display: none;
+    }
+    .popup.active {
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        transition: 0.3s ease-in-out;
+    }
+
+    .popup .links {
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: chartreuse; */
+    }
+
+    .popup .links a {
+        font-family: "Jost";
+        font-size: 20px;
+        text-decoration: none;
+        color: #292F36;
+    }
+
+    .popup .links a:hover {
+        color: white;
+    }
+
+    .popup #xmark:hover {
+        color: white;
+    }
+
+    .popup .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .popup .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 50px;
+        box-shadow: 0px 8px 16px 0px;
+        z-index: 1;
+    }
+
+    .popup .dropdown-content a {
+        padding: 2px;
+    }
+
+    .popup .dropdown:hover .dropdown-content {
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin: 0px 0px 0px 30px;
+        display: inline-block;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    /* NAVBAR End */
+
+}
+
+@media (max-width: 576px) {
+
+    /* Navbar Start */
+    .navbar {
+        width: 100%;
+        padding: 0px;
+    }
+
+    header {
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+    .navbar .left {
+        width: 50%;
+        padding: 0px 0px 0px 10px;
+        /* background-color: rebeccapurple; */
+    }
+
+    .navbar .left img {
+        width: 24px;
+        height: 25px;
+        padding-bottom: 3px;
+    }
+
+    .navbar .left h3 {
+        font-weight: 600;
+        font-size: 26px;
+        padding: 8px 0px 0px 3px;
+    }
+
+    .navbar .right {
+        width: 50%;
+        padding: 0px 10px 0px 0px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        /* background-color: blue; */
+    }
+
+    .navbar .right .links {
+        display: none;
+    }
+
+    .navbar .right .icon {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    /* .popup {
+        display: flex;
+       justify-content: end;
+        background-color: aqua;
+        width: 100%;
+        height: 100px;
+    }
+
+    .popup div {
+        background-color: chartreuse;
+    }
+
+    .xmark {
+        font-size: 28px;
+    } */
+    .popup {
+        transition: 0.3s ease-in;
+    }
+
+    .popup.active {
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        transition: 0.3s ease-in-out;
+    }
+
+    .popup .links {
+        display: flex;
+        gap: 1.9rem;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: chartreuse; */
+    }
+
+    .popup .links a {
+        font-family: "Jost";
+        font-size: 20px;
+        text-decoration: none;
+        color: #292F36;
+    }
+
+    .popup .links a:hover {
+        color: white;
+    }
+
+    .popup #xmark:hover {
+        color: white;
+    }
+
+    .popup .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .popup .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 50px;
+        box-shadow: 0px 8px 16px 0px;
+        z-index: 1;
+    }
+
+    .popup .dropdown-content a {
+        padding: 2px;
+    }
+
+    .popup .dropdown:hover .dropdown-content {
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin: 0px 0px 0px 30px;
+        display: inline-block;
+    }
+
+    /* .fa-bars.active {
+        opacity: 
+    } */
+
+
+    /* NAVBAR End */
+
+    /* Services START */
+    .services {
+        width: 100%;
+        height: 230px;
+    }
+
+    .services .main .center {
+        width: 45%;
+        height: 37%;
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    .services .main .center .text {
+        padding-top: 15px;
+    }
+
+    .services .main .center .text h2 {
+        margin: 0px;
+    }
+
+    .services .main .center .text .link a {
+        padding: 0px;
+    }
+
+    /* Services End */
+
+    /* Works start*/
+    .works {
+        margin-top: 60px;
+        height: 1100px;
+        /* background-color: aqua; */
+    }
+
+    .works .main {
+        width: 70%;
+        height: 100%;
+        padding: 10px 0px;
+        /* background-color: blueviolet; */
+    }
+
+    .works .text {
+        width: 70%;
+        height: 14%;
+        margin: 20px;
+        padding-top: 0px;
+        border-radius: 10px;
+        /* background-color: chartreuse; */
+    }
+
+    .works .text .box {
+        height: 100%;
+        /* background-color: #115eb5; */
+    }
+
+    .works .text .box h2 {
+        padding: 2px 0px 0px 0px;
+        margin: 0px;
+        font-size: 23px;
+    }
+
+    .works .text .box p {
+        padding: 0px 3px;
+        margin: 0px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .works .text .box .read {
+        padding: 0px 0px 2px 0px;
+        margin: 0px;
+    }
+
+    .works .text .box .read h3 {
+        margin: 0px;
+        font-size: 16px;
+    }
+
+    .works .text .box .read a img {
+        padding: 0px 0px 3px 3px;
+    }
+
+    .works .interior {
+        background: #F4F0EC;
+    }
+
+    /* work end */
+
+
+    /* how-work START */
+    .how-work {
+        width: 100%;
+        margin-top: 100px;
+        padding-top: 10px;
+        /* background-color: red; */
+    }
+
+    .how-work .boxs {
+        width: 90%;
+        padding: 30px 0px 90px 0px;
+        border-radius: 50px;
+    }
+
+    .how-work .boxs .boxx {
+        width: 80%;
+        padding: 10px 10px;
+        text-align: center;
+        /* background-color: rgb(88, 228, 88); */
+    }
+
+
+    .how-work .boxs .boxx .box-1 h1 {
+        padding: 5px;
+        font-size: 30px;
+    }
+
+    .how-work .boxs .boxx .box-1 p {
+        font-size: 15px;
+    }
+
+    .how-work .boxs .box {
+        display: flex;
+        align-items: start;
+        width: 80%;
+        height: 20%;
+        margin: 15px 0px;
+        /* background-color: rgb(228, 88, 186); */
+    }
+
+    .how-work .boxs .box .left {
+        width: 50%;
+        height: 100%;
+        /* background-color: rgb(95, 42, 165); */
+    }
+
+    .how-work .boxs .box .right {
+        width: 50%;
+        height: 100%;
+        /* background-color: rgb(42, 165, 153); */
+    }
+
+
+    .how-work .boxs .box .left .photo,
+    .right .photo {
+        margin: 10px 0px 0px 0px;
+        width: 100%;
+        height: 80%;
+        border-radius: 0px 100px 0px 290px;
+    }
+
+    .how-work .boxs .box .first,
+    .second,
+    .third,
+    .fourth {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+        margin: 0px 0px 0px 0px;
+        /* background-color: red; */
+    }
+
+    .how-work .boxs .box .first .top,
+    .second .top,
+    .third .top,
+    .fourth .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 30%;
+        padding: 1px 10px 0px 10px;
+        /* background-color: cyan; */
+    }
+
+    .icon1 {
+        text-align: center;
+        height: 65%;
+    }
+
+    .icon2 {
+        text-align: center;
+        width: 30px;
+        height: 65%;
+    }
+
+    .icon3 {
+        text-align: center;
+        height: 50px;
+    }
+
+    .icon4 {
+        text-align: center;
+        height: 50px;
+    }
+
+    .icon5 {
+        text-align: center;
+        height: 65%;
+    }
+
+    .icon6 {
+        text-align: center;
+        height: 65%;
+    }
+
+    .number {
+        text-align: center;
+        width: 50%;
+        height: 65%;
+    }
+
+    .how-work .boxs .box .first .bottom,
+    .second .bottom,
+    .third .bottom,
+    .fourth .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 0px 0px 0px;
+        height: 70%;
+        /* background-color: #CDA274; */
+    }
+
+    .how-work .boxs .box .first .bottom h2,
+    .second .bottom h2,
+    .third .bottom h2,
+    .fourth .bottom h2 {
+        font-family: 'DM Serif Display';
+        font-size: 18px;
+        color: #292F36;
+    }
+
+    .how-work .boxs .box .first .bottom p,
+    .second .bottom p,
+    .third .bottom p,
+    .fourth .bottom p {
+        padding-left: 5px;
+        font-size: 14px;
+        color: #4D5053;
+        text-align: center;
+    }
+
+    /* how-work END */
+
+    /* Wanna STRAT */
+    .wanna {
+        margin: 100px 0px;
+        /* background-color: aqua; */
+    }
+
+    .join {
+        width: 90%;
+        height: 45vh;
+        border-radius: 40px;
+        background: #292F36;
+    }
+
+    .wanna .join h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .wanna .join p {
+        font-size: 14px;
+    }
+
+    .wanna .join .contact {
+        width: 160px;
+        height: 40px;
+        padding: 7px 5px 5px 9px;
+        border-radius: 13px;
+        box-shadow: 0px 10px 20px #1F2022;
+    }
+
+    .wanna .join .contact img {
+        width: 11%;
+        padding-bottom: 3px;
+    }
+
+    /* Wanna End */
+
+
+    /* Footer start */
+    .footer {
+        height: 60vh;
+        /* background-color: #CDA274; */
+        margin-bottom: 0px;
+    }
+
+    .footer .foot {
+        width: 90%;
+        /* background-color: #c539bc; */
+    }
+
+    .footer .foot .left {
+        padding-left: 20px;
+        width: 50%;
+        /* background-color: blueviolet; */
+    }
+
+    .footer .foot .left .loggo .logo img {
+        width: 24px;
+        height: 25px;
+        padding-bottom: 3px;
+    }
+
+    .footer .foot .left .loggo .logo h3 {
+        font-weight: 600;
+        font-size: 26px;
+        padding: 8px 0px 0px 3px;
+    }
+
+    .footer .foot .left p {
+        padding: 15px 10px 15px 0px;
+        text-align: start;
+        font-size: 14px;
+        /* color: #4D5053; */
+    }
+
+    .footer .foot .left .image img {
+        padding: 0px 15px 0px 0px;
+    }
+
+    .footer .foot .right {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding: 50px 0px 0px 0px;
+        width: 50%;
+        /* background-color: rgb(7, 213, 175); */
+    }
+
+    .footer .foot .right .pages {
+        padding: 3px 0x 3px 0px;
+        height: 10%;
+        margin: 5px;
+        /* background-color: brown; */
+    }
+
+    .footer .foot .right .services {
+        height: 10%;
+        margin: 5px;
+        padding: 3px 0x 3px 0px;
+        /* background-color: blue; */
+    }
+
+    .footer .foot .right .contact {
+        padding: 3px 0x 3px 0px;
+        height: 10%;
+        margin: 5px;
+        /* background-color: rgb(226, 43, 211); */
+    }
+
+    .footer .foot .right .pages h2,
+    .services h2,
+    .contact h2 {
+        font-size: 20px;
+    }
+
+    /* .footer .foot .right .pages a,
+    .services a,
+    .contact a {
+        font-size: 14px;
+        padding: 3px 0px 3px 0px;
+    } */
+    .footer .foot .right .links {
+        display: none;
+    }
+
+    /* Footer End */
+}

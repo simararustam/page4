@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.overlay {
+    height: 400px;
+    width: 400px;
+    background-color: #CDA274 !important;
+}
+
+
+/* Navbar Start */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    position: relative;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.navbar .left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .left img {
+    width: 25px;
+    height: 28px;
+    padding-bottom: 3px;
+}
+
+.navbar .left h3 {
+    font-family: 'DM Serif Display';
+    font-weight: 600;
+    font-size: 30px;
+    color: #292F36;
+    padding: 8px 0px 0px 2px;
+}
+
+.navbar .right {
+    padding-left: 125px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.navbar .right .links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .right a {
+    font-family: "Jost";
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: #292F36;
+
+}
+
+.navbar .right a:hover {
+    color: rgba(205, 162, 116, 1);
+}
+
+.navbar .right .icon {
+    display: inline;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 2px 0px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.popup {
+    position: absolute;
+    display: flex;
+    justify-content: space-;
+    background-color: rgb(212, 212, 212);;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+}
+
+.xmark {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 0px;
+    /* background-color: #CDA274; */
+}
+
+#xmark {
+    font-size: 38px;
+}
+
+.fa-bars {
+    display: none;
+}
+
+/* NAVBAR End */
+
+/* Services START */
+.services {
+    width: 100%;
+    height: 250px;
+}
+
+.services .main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: #292F36;
+    background-image: url("./images/Photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.services .main .center {
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 50%;
+    background: #FFFFFF;
+    border-radius: 37px 37px 0px 0px
+}
+
+.services .main .center .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    font-family: 'DM Serif Display';
+    font-size: 23px;
+    color: #292F36;
+
+}
+
+.services .main .center .text .link {
+    display: flex;
+}
+
+.services .main .center .text .link a,
+p {
+    font-family: 'Jost';
+    font-size: 16px;
+    color: #4D5053;
+    text-decoration: none;
+}
+
+.services .main .center .text .link a:hover {
+    color: rgba(205, 162, 116);
+}
+
+/* Services End */
+
+/* Works start*/
+.works {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 110vh;
+    /* background-color: aqua; */
+}
+
+.works .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 75%;
+    /* background-color: blueviolet; */
+}
+
+.works .text {
+    display: inline-block;
+    padding-top: 50px;
+    width: 29%;
+    height: 47%;
+    margin: 10px;
+    border-radius: 27px;
+    /* background-color: chartreuse; */
+}
+
+.works .text .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #292F36; */
+}
+
+.works .text .box h2 {
+    font-family: 'DM Serif Display';
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.works .text .box p {
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 17px;
+    padding: 5px 15px 30px 15px;
+    color: #4D5053;
+}
+
+.works .text .box h3 {
+    font-family: 'Jost';
+    font-size: 18px;
+}
+
+.works .text .box .read {
+    display: flex;
+    align-items: center;
+}
+
+.works .text .box .read a img {
+    padding: 0px 0px 7px 6px;
+}
+
+.works .interior {
+    background: #F4F0EC;
+}
+
+/* work end */
+
+
+/* how-work START */
+.how-work {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 100px;
+    /* background-color: #324152; */
+}
+
+.how-work .boxs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 75%;
+    padding-bottom: 90px;
+    background: #F4F0EC;
+    border-radius: 70px;
+
+}
+
+.how-work .boxs .boxx {
+    display: flex;
+    align-items: center;
+    width: 58%;
+    padding: 100px 0px;
+    text-align: center;
+    /* background-color: rgb(88, 228, 88); */
+}
+
+.how-work .boxs .boxx .box-1 h1 {
+    font-family: 'DM Serif Display';
+    color: #363B41;
+    padding: 5px;
+    font-size: 35px;
+}
+
+.how-work .boxs .boxx .box-1 p {
+    font-family: 'Jost';
+    font-size: 16px;
+    color: #4D5053;
+}
+
+.how-work .boxs .box {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+    margin: 15px 0px;
+    /* background-color: rgb(88, 228, 88); */
+}
+
+.how-work .boxs .box .left .photo,
+.right .photo {
+    border-radius: 0px 100px 0px 290px;
+}
+
+.how-work .boxs .box .first,
+.second,
+.third,
+.fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+    /* background-color: red; */
+}
+
+.how-work .boxs .box .first .top,
+.second .top,
+.third .top,
+.fourth .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    padding: 20px;
+    /* background-color: cyan; */
+}
+
+.how-work .boxs .box .first .bottom,
+.second .bottom,
+.third .bottom,
+.fourth .bottom {
+    padding-left: 30px;
+    text-align: start;
+}
+
+.how-work .boxs .box .first .bottom h2,
+.second .bottom h2,
+.third .bottom h2,
+.fourth .bottom h2 {
+    font-family: 'DM Serif Display';
+    font-size: 28px;
+    color: #292F36;
+}
+
+.how-work .boxs .box .first .bottom p,
+.second .bottom p,
+.third .bottom p,
+.fourth .bottom p {
+    font-family: 'Jost';
+    font-size: 16px;
+    color: #4D5053;
+}
+
+
+/* how-work END */
+
+/* Wanna STRAT */
+.wanna {
+    display: flex;
+    justify-content: center;
+    margin: 200px 0px;
+    /* background-color: aqua; */
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 50vh;
+    border-radius: 70px;
+    background: #292F36;
+}
+
+.wanna .join h2 {
+    font-family: 'DM Serif Display';
+    font-size: 50px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.wanna .join p {
+    font-family: 'Jost';
+    font-size: 16px;
+    color: #FFF;
+}
+
+.wanna .join .contact {
+    width: 175px;
+    height: 50px;
+    padding: 10px;
+    background: #CDA274;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px #1F2022;
+}
+
+.wanna .join .contact a {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.wanna .join .contact img {
+    padding-bottom: 3px;
+}
+
+/* Wanna End */
+
+
+/* Footer start */
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    /* background-color: #CDA274; */
+    margin-bottom: 100px;
+}
+
+.footer .foot {
+    display: flex;
+    /* align-items: center; */
+    width: 75%;
+    /* background-color: #122334; */
+}
+
+.footer .foot .left {
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    /* background-color: blueviolet; */
+}
+
+.footer .foot .left .loggo {
+    display: inline-block;
+}
+
+.footer .foot .left .loggo .logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer .foot .left .loggo .logo img {
+    width: 29px;
+    height: 29px;
+    padding: px px 5px 0px;
+}
+
+.footer .foot .left .loggo .logo h3 {
+    font-family: 'DM Serif Display';
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #292F36;
+}
+
+.footer .foot .left p {
+    padding: 10px 40px 10px 0px;
+    font-family: 'Jost';
+    font-size: 16px;
+    display: flex;
+    letter-spacing: 0.03em;
+    color: #4D5053;
+}
+
+/* .footer .foot .left .image {} */
+
+.footer .foot .left .image img {
+    padding: 0px 25px 0px 0px;
+}
+
+.footer .foot .right {
+    /* background-color: rgb(7, 213, 175); */
+    width: 63%;
+    display: flex;
+}
+
+.footer .foot .right .pages {
+    width: 33%;
+    height: 100%;
+    padding: 7px 0px;
+    /* background-color: brown; */
+}
+
+.footer .foot .right .services {
+    width: 33%;
+    height: 100%;
+    padding: 7px 0px;
+    /* background-color: blue; */
+}
+
+.footer .foot .right .contact {
+    width: 33%;
+    padding: 7px 0px;
+    /* background-color: rgb(226, 43, 211); */
+}
+
+.footer .foot .right .links {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer .foot .right .pages h2,
+.services h2,
+.contact h2 {
+    font-size: 22px;
+}
+
+.footer .foot .right .pages a,
+.services a,
+.contact a {
+    text-decoration: none;
+    font-size: 17px;
+    padding: 4px 0px 9px 0px;
+    color: #4D5053;
+}
+
+/* Footer End */
